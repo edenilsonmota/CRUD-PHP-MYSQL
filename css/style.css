@@ -1,0 +1,103 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: #323647;
+    color: #fff;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container .header .logo{
+    text-decoration: none;
+    color: #fff;
+}
+.btn{
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 2rem;
+    border-radius: 9%;
+}
+
+.btn-success{
+    background-color: #02b37e;
+}
+
+.btn-primary{
+    background-color: #0069D9;
+}
+
+.btn-danger{
+    background-color: #C82333;
+}
+
+.btn-prev{
+    background-color: #138496;
+}
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.table-users{
+    width: 80%;
+}
+
+.table-users th {
+    background-color: #51595f;
+}
+.table-users td {
+    background-color: #282B38;
+}
+
+.edit, .delete{
+    background-color: #323647 !important;
+    width: 0;
+}
+
+form{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #282B38;
+}
+
+label{
+    margin-top: 1rem;
+}
+
+input {
+    width: 20rem;
+    height: 1.5rem;
+}
+
+form .btn{
+    margin-top: 1rem;
+    border: none;
+}
+
+.text-success{
+    background-color: rgb(6, 184, 6);
+}
+
+.text-error{
+    background-color: rgb(236, 20, 20);
+}
